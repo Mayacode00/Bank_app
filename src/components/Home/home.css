@@ -1,0 +1,52 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+body .container {
+  display: flex;
+  padding: 40px 100px;
+}
+div img {
+  height: 330px;
+}
+div h1 {
+  font-size: 70px;
+  line-height: 90px;
+}
+div h1::first-letter,
+div p::first-letter,
+span {
+  text-transform: uppercase;
+}
+.note p {
+  margin-top: 30px;
+  font-weight: 500px;
+  width: 430px;
+}
+body .fill-up {
+  transform: translate(15px, -50px);
+  background: #dc4405;
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.fill-up .current,
+.fill-up .account {
+  display: flex;
+  justify-content: space-between;
+}
+.fill-up .account {
+  transform: translateY(60px);
+}
+.fill-up .color {
+  background: #ffffff;
+  color: black;
+  text-align: center;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
